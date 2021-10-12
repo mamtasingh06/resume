@@ -1,0 +1,81 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="container mt-5">
+  <h1 class="text-warning mb-3 border-bottom st1-font">Contact Me</h1>
+  <div class="row text-white mb-5">
+    <div class="col-sm-9 mb-5">
+      <form action="">
+          <div class="row">
+            <div class="form-group col-md-6">
+               <label for="inputName" class="mb-2">Your Name</label>
+               <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputEmail" class="mb-2">Your Email *</label>
+                <input type="email" class="form-control" id="inputEmail" required>
+             </div>
+          </div>
+
+          <div class="mb-1">
+            <label for="inputText" class="my-2">Organization's Name</label>
+            <input type="text" class="form-control" id="inputText" required></input>
+         </div>
+          
+         <div class="mb-3">
+            <label for="inputTextarea" class="my-2 sb-scroll">Your Message</label>
+            <textarea class="form-control" id="inputTextarea" required></textarea>
+         </div>
+         <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+          <div class="mt-3">
+            <i class="fas fa-map-marker-alt " style="color: maroon;"></i>
+             <p>Hajipur, Bihar, India</p>
+             <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28763.999751945736!2d85.20261959391425!3d25.687865379284414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5c1f0e3e9d01%3A0x34ac550b84f13ad3!2sHajipur%2C%20Bihar!5e0!3m2!1sen!2sin!4v1633943481323!5m2!1sen!2sin"  
+              width="780" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </p>
+          </div>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <i class="fas fa-phone mt-4 " style="color: green;"></i>
+            </li>
+            <li class="list-inline-item">
+              <p>+919117018750</p>
+            </li>
+            <li class="list-inline-item offset-2">
+              <i class="far fa-envelope " style="color: darkred;"></i>
+            </li>
+            <li class="list-inline-item">
+              <p>mamtasinghs90@gmail.com</p>
+            </li>
+
+          </ul>
+      
+    </div>
+    <div class="col-sm-3 text-center">
+      <ul class="list-unstyled mt-4">
+           <li>
+            <a href="#" target="_blank"><i class="fab fa-twitter fa-2x " 
+              style="color: dodgerblue;"></i></a>
+           </li>
+           <li>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f fa-2x my-4"
+              style="color: royalblue;"></i></a>
+            
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-instagram fa-2x  " 
+              style="color: mediumvioletred;"></i></a>
+            
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-telegram fa-2x my-4" 
+              style="color: steelblue;"></i></a>
+          </li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+
+{% endblock content %}
